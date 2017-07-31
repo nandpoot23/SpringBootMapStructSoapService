@@ -1,0 +1,60 @@
+************************************************************************************************************************
+
+Gradle Build:-
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'SpringBootMapStructSoapService'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not find net.ltgt.gradle:gradle-apt-plugin:0.9.
+     Searched in the following locations:
+         https://repo1.maven.org/maven2/net/ltgt/gradle/gradle-apt-plugin/0.9/gradle-apt-plugin-0.9.pom
+         https://repo1.maven.org/maven2/net/ltgt/gradle/gradle-apt-plugin/0.9/gradle-apt-plugin-0.9.jar
+     Required by:
+         :SpringBootMapStructSoapService:unspecified
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 2.335 secs
+
+************************************************************************************************************************
+
+Default Folder:- 
+
+.apt_generated
+
+************************************************************************************************************************
+
+Generation:-
+
+D:\project\development\SpringBootMapStructSoapService\.apt_generated
+D:\project\development\SpringBootMapStructSoapService\build\generated\source\apt\main
+
+************************************************************************************************************************
+
+Help:-
+
+https://plugins.gradle.org/plugin/net.ltgt.apt/0.5
+https://plugins.gradle.org/plugin/net.ltgt.apt/0.7
+https://plugins.gradle.org/plugin/net.ltgt.apt/0.8
+https://plugins.gradle.org/plugin/net.ltgt.apt/0.1-SNAPSHOT
+https://plugins.gradle.org/plugin/net.ltgt.apt
+
+https://docs.gradle.org/current/userguide/tutorial_java_projects.html
+https://docs.gradle.org/current/userguide/dependency_management.html#sub:file_dependencies
+
+http://g00glen00b.be/mapstruct/
+
+https://github.com/g00glen00b/spring-samples/tree/master/spring-boot-jpa-mapstruct-webapp
+
+https://amsterdam.luminis.eu/2016/05/31/object-mapping-magic-with-mapstruct/
+
+https://samerabdelkafi.wordpress.com/2015/10/18/mapstruct/
+
+http://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file
+
+************************************************************************************************************************
